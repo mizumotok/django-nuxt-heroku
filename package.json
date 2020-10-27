@@ -1,0 +1,10 @@
+{
+  "name": "django-nuxt-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd client; yarn nuxt-ts",
+    "postinstall": "cd client; yarn install --production=false",
+    "build": "cd client; yarn nuxt-ts generate"
+  }
+}
